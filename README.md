@@ -24,7 +24,7 @@ We sincerely thank you for every cache donation you send us.</p>
 <img src="https://raw.githubusercontent.com/KSH-Soft/RENYLAND_Cache_Restorer/refs/heads/main/GUI.png" alt="GUI" width="400px">
 </p>
 
-<h2 id="technologies">💻 Technologies</h2>
+<h2 id="tech">💻 Technologies</h2>
 
 - Python 3.12 (Spyder 6 IDE)
 - PyQt5 / PyQt5 Designer
