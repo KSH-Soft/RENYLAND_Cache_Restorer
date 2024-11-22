@@ -9,8 +9,7 @@
 </p>
 
 
-<p align="center">Renyland Cache_Restorer is a program designed to analyse folders in order to detect files that can be used to restore items that have now been lost for the new Anyland game server, called REnyland.
-We sincerely thank you for every cache donation you send us.</p>
+<p align="center">Renyland Cache_Restorer est un programme conçu pour analyser les dossiers afin de détecter les fichiers qui peuvent être utilisés pour restaurer les éléments qui ont été perdus pour le nouveau serveur de jeu Anyland, appelé REnyland. Nous vous remercions sincèrement pour chaque don de cache que vous nous envoyez.</p>
 
 
 <p align="center">
