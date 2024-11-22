@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="CustomBrows">
+    <property name="geometry">
+     <rect>
+      <x>415</x>
+      <y>236</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+                background-color: #ffba00;
+                color: white;
+                border-radius: 8px;
+                padding: 4px 8px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background-color: #cb9400;
+            }
+            QPushButton:pressed {
+                background-color: #a07500;
+            }</string>
+    </property>
+    <property name="text">
+     <string>Custom Folder Browser</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CROSS">
+    <property name="geometry">
+     <rect>
+      <x>576</x>
+      <y>4</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/Assets/croixx.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StartBrows">
+    <property name="geometry">
+     <rect>
+      <x>415</x>
+      <y>174</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #2a75bf;
+color: black;
+border-radius: 8px;
+padding: 4px 8px;
+font-size: 12px;
+font-weight: bold;
+}
+QPushButton:hover {
+background-color: #0058ae;
+}
+QPushButton:pressed {
+ background-color: #00468b;
+}</string>
+    </property>
+    <property name="text">
+     <string>START
+Standard Cache Restorer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>601</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Assets/bg.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="INFO">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>276</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/Assets/info.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>166</y>
+      <width>393</width>
+      <height>124</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+            QTextEdit {
+                scrollbar-color: #ffba00 transparent; /* Couleur de la barre de défilement et de l'arrière-plan */
+                scrollbar-width: thin; /* Définir l'épaisseur de la barre de défilement */
+            }
+            QTextEdit::vertical scrollbar:hover {
+                background-color: #dcdcdc;
+                border-radius: 10px;
+            }
+
+            QTextEdit::vertical scrollbar {
+                width: 8px; /* Largeur de la barre de défilement verticale */
+                background-color: #f0f0f0; /* Arrière-plan de la barre de défilement */
+                border-radius: 4px; /* Coins arrondis */
+            }
+
+            QTextEdit::vertical scrollbar:handle {
+                background-color: #ffba00; /* Couleur du curseur de la scrollbar */
+                border-radius: 4px; /* Coins arrondis du curseur */
+            }
+
+            QTextEdit::horizontal scrollbar {
+                height: 8px; /* Hauteur de la barre de défilement horizontale */
+                background-color: #f0f0f0;
+                border-radius: 4px;
+            }
+
+            QTextEdit::horizontal scrollbar:handle {
+                background-color: #ffba00;
+                border-radius: 4px;
+            }</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;okoj&lt;br /&gt;uiuh&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;uihoijoij&lt;br /&gt;iuhiu&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;okoj&lt;br /&gt;uiuh&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;uihoijoij&lt;br /&gt;iuhiu&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;okoj&lt;br /&gt;uiuh&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;uihoijoij&lt;br /&gt;iuhiu&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="version">
+    <property name="geometry">
+     <rect>
+      <x>543</x>
+      <y>276</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;V1.0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>CustomBrows</zorder>
+   <zorder>CROSS</zorder>
+   <zorder>StartBrows</zorder>
+   <zorder>INFO</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>version</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ressources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
